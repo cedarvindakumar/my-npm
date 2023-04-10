@@ -1,0 +1,274 @@
+.button {
+    cursor: pointer;
+    transition: 0.3s all;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-family: 'Heebo-regular';
+    padding: 5px 15px;
+}
+.button, .button-default, .button-rounded  {
+    
+    border: 1px solid #d0caca;
+    background: #d0caca;
+   
+    
+
+}
+
+.button-outline {
+    background-color: transparent;
+}                                                b 
+.button-link {
+    background: transparent;
+    border: none;
+    padding: 2px 3px;
+    color: #7878c0;
+}
+
+.button-rounded {
+    border-radius: 25px;
+}
+.button--primary {
+    background: #6262c8;
+    border-color: #6262c8;
+    color: #fff;
+}
+
+.button--secondary {
+    background-color: #777D74;
+    border-color: #777D74;
+    color: #ffff;
+}
+
+.button--success {
+    background-color: #00ca00;
+    border-color: #00ca00;
+    color: #fff;
+}
+
+.button--danger {
+    background-color: #e64141;
+    border-color: #e64141;
+    color: #fff;
+}
+
+.button--warning {
+    background-color: #ffd400;
+    border-color: #ffd400;
+    color: #000;
+}
+
+.button--info {
+    background-color: #00d0ff;
+    border-color: #00d0ff;
+    color: #fff;
+}
+
+.button--light {
+    background-color: #E9EDF4;
+    color: #000;
+    border-color: #E9EDF4;
+}
+
+.button--dark {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.button-default.button--primary {
+    background-color: #6262c8;
+    border-color: #6262c8;
+    color: #fff;
+}
+.button-outline.button--primary {
+    background-color: transparent;
+    border-color: #6262c8;
+    color: #6262c8;
+}
+.button-link.button--primary {
+    background-color: transparent;
+    border-color: transparent;
+    color: #6262c8;
+}
+.button-rounded.button--primary {
+    background-color: #6262c8;
+    border-color: #6262c8;
+    color: #fff;
+}
+
+.button-default.button--secondary {
+    background-color: #777D74;
+    border-color: #777D74;
+    color: #fff;
+}
+.button-outline.button--secondary {
+    background-color: transparent;
+    border-color: #777D74;
+    color: #777D74;
+}
+.button-link.button--secondary {
+    background-color: transparent;
+    border-color: transparent;
+    color: #777D74;
+}
+.button-rounded.button--secondary {
+    background-color: #777D74;
+    border-color: #777D74;
+    color: #fff;
+}
+
+.button-default.button--success {
+    background-color: #00ca00;
+    border-color: #00ca00;
+    color: #fff;
+}
+.button-outline.button--success {
+    background-color: transparent;
+    border-color: #00ca00;
+    color: #00ca00;
+}
+.button-link.button--success {
+    background-color: transparent;
+    border-color: transparent;
+    color: #00ca00;
+}
+.button-rounded.button--success {
+    background-color: #00ca00;
+    border-color: #00ca00;
+    color: #fff;
+}
+
+
+.button-default.button--danger {
+    background-color: #e64141;
+    border-color: #e64141;
+    color: #fff;
+}
+.button-outline.button--danger {
+    background-color: transparent;
+    border-color: #e64141;
+    color: #e64141;
+}
+.button-link.button--danger {
+    background-color: transparent;
+    border-color: transparent;
+    color: #e64141;
+}
+.button-rounded.button--danger {
+    background-color: #e64141;
+    border-color: #e64141;
+    color: #fff;
+}
+
+
+.button-default.button--warning {
+    background-color: #ffd400;
+    border-color: #ffd400;
+    color: #fff;
+}
+.button-outline.button--warning {
+    background-color: transparent;
+    border-color: #ffd400;
+    color: #ffd400;
+}
+.button-link.button--warning {
+    background-color: transparent;
+    border-color: transparent;
+    color: #ffd400;
+}
+.button-rounded.button--warning {
+    background-color: #ffd400;
+    border-color: #ffd400;
+    color: #fff;
+}
+
+
+.button-default.button--info {
+    background-color: #00d0ff;
+    border-color: #00d0ff;
+    color: #fff;
+}
+.button-outline.button--info {
+    background-color: transparent;
+    border-color: #00d0ff;
+    color: #00d0ff;
+}
+.button-link.button--info {
+    background-color: transparent;
+    border-color: transparent;
+    color: #00d0ff;
+}
+.button-rounded.button--info {
+    background-color: #00d0ff;
+    border-color: #00d0ff;
+    color: #fff;
+}
+
+
+
+.button-default.button--light {
+    background-color: #E9EDF4;
+    border-color: #E9EDF4;
+    color: #000;
+}
+.button-outline.button--light {
+    background-color: transparent;
+    border-color: rgb(73, 62, 62);
+    color: rgb(73, 62, 62);;
+}
+.button-link.button--light {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(73, 62, 62);
+}
+.button-rounded.button--light {
+    background-color: #E9EDF4;
+    border-color: #E9EDF4;
+    color: #000;
+}
+
+
+.button:hover {
+    opacity: 0.9;
+}
+/* .button:hover, .button-default:hover, .button-rounded:hover {
+    border: 1px solid #8a7b7b;
+    background: #8a7b7b;
+}
+.button-link:hover {
+    color: #313183;
+}
+.button--primary:hover {
+    background-color: #313183;
+    border-color: #313183;
+}
+.button--secondary:hover {
+    background-color: rgb(76, 80, 74);
+    border-color: rgb(76, 80, 74);
+}
+.button--success:hover {
+    background-color: #3a5c2a;
+    border-color: #3a5c2a;
+}
+.button--danger:hover {
+    background-color: #881f1f;
+    border-color: #881f1f;
+}
+.button--warning:hover {
+    background-color: #c7ac26;
+    border-color: #c7ac26;
+}
+.button--info:hover {
+    background-color: #3095ac;
+    border-color: #3095ac;
+}
+.button--light:hover {
+    background-color: #c7cfdd;
+    border-color: #c7cfdd;
+}
+.button--dark:hover {
+    background-color: #000;
+    border-color: #000;
+} */
+
